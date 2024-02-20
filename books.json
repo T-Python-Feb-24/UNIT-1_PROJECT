@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "isbn": "9781788831833",
+        "title": "Deep Learning with TensorFlow",
+        "authors": [
+            "Giancarlo Zaccone",
+            "Md. Rezaul Karim"
+        ],
+        "published_Date": "30/03/2018",
+        "publisher": "Packt Publishing Ltd",
+        "pages": 483,
+        "description": "Delve into neural networks, implement deep learning algorithms, and explore layers of data abstraction with the help of TensorFlow. Key Features Learn how to implement advanced techniques in deep learning with Google's brainchild, TensorFlow Explore deep neural networks and layers of data abstraction with the help of this comprehensive guide Gain real-world contextualization through some deep learning problems concerning research and application Book Description Deep learning is a branch of machine learning algorithms based on learning multiple levels of abstraction. Neural networks, which are at the core of deep learning, are being used in predictive analytics, computer vision, natural language processing, time series forecasting, and to perform a myriad of other complex tasks. This book is conceived for developers, data analysts, machine learning practitioners and deep learning enthusiasts who want to build powerful, robust, and accurate predictive models with the power of TensorFlow, combined with other open source Python libraries. Throughout the book, you\u2019ll learn how to develop deep learning applications for machine learning systems using Feedforward Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Autoencoders, and Factorization Machines. Discover how to attain deep learning programming on GPU in a distributed way. You'll come away with an in-depth knowledge of machine learning techniques and the skills to apply them to real-world projects. What you will learn Apply deep machine intelligence and GPU computing with TensorFlow Access public datasets and use TensorFlow to load, process, and transform the data Discover how to use the high-level TensorFlow API to build more powerful applications Use deep learning for scalable object detection and mobile computing Train machines quickly to learn from data by exploring reinforcement learning techniques Explore active areas of deep learning research and applications Who this book is for The book is for people interested in machine learning and machine intelligence. A rudimentary level of programming in one language is assumed, as is a basic familiarity with computer science techniques and technologies, including a basic awareness of computer hardware and algorithms. Some competence in mathematics is needed to the level of elementary linear algebra and calculus.",
+        "webs": {
+            "Google_Books": "https://play.google.com/store/books/details?id=zZlUDwAAQBAJ&rdid=book-zZlUDwAAQBAJ&rdot=1&source=gbs_api",
+            "Amazon_Books": "https://www.amazon.sa/s?k=isbn+9781788831833"
+        },
+        "price": [
+            155.23,
+            "SAR"
+        ],
+        "subtitle": "Explore neural networks and build intelligent systems with Python, 2nd Edition",
+        "category": [
+            "Computers"
+        ],
+        "added_date": "20/02/2024 17:42",
+        "in_stock": 3
+    }
+]
