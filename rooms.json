@@ -1,0 +1,26 @@
+[
+    {
+        "room_number": 1,
+        "room_capacity": 3,
+        "room_PIN": 6092,
+        "is_rented": false,
+        "enter_time": "",
+        "enter_date": ""
+    },
+    {
+        "room_number": 2,
+        "room_capacity": 1,
+        "room_PIN": 8722,
+        "is_rented": false,
+        "enter_time": "",
+        "enter_date": ""
+    },
+    {
+        "room_number": 3,
+        "room_capacity": 5,
+        "room_PIN": 4145,
+        "is_rented": true,
+        "enter_time": "11:11",
+        "enter_date": "2024-10-10"
+    }
+]
