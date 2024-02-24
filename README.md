@@ -1,44 +1,24 @@
 # UNIT-1_PROJECT
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+# Project :  
+Python Quiz Game.
 
-- Must be interactive on CLI.
-- Use data structures. 
-- Use loops & conditionals.
-- Use functions that return an output . 
-- Use a Lambda function.
-- Use at least 1 Class.
-- Use some form of Error Handling .
-- Organize Your Code into modules & (or packages)
+# Overview: 
+Python Quiz Game allows players to test their Python knowledge. This quiz game features three categories, all of which are related to Python. Players should be able to select a category to challenge themselves.
 
-## Example Project :  An online Grocery Store :
+# As a player , I should be able to do the following:
+- Answer Python-related questions to test my knowledge.
+- View the summary of the quiz game.
+- Select a category to challenge my Python skills.
+- Answer questions by choosing the correct option.
+- Get feedback on my performance after each question.
+- Keep track of my score as I progress through the quiz.
+- Have the option to play again once I've completed the quiz.
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+# Usage:
+- Enter your name.
+- Type "yes" or "no" to indicate whether you want to play.
+- Enter the letter corresponding to the category you want to test yourself in.
+- Enter the letter corresponding to the option you believe is the correct answer.
+- Once the player has finished answering all 10 questions, they can choose to play again by typing "yes" or "no".
