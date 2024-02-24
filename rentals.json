@@ -1,0 +1,115 @@
+[
+    {
+        "registration_number": "ABC123",
+        "rent_date": "2024-02-23",
+        "renter_name": "MOHAMMED"
+    },
+    {
+        "registration_number": "AAA111",
+        "rent_date": "2024-02-23",
+        "renter_name": "abdullah",
+        "renter_id": "1234567890"
+    },
+    {
+        "registration_number": "BBB222",
+        "rent_date": "2024-02-24",
+        "renter_name": "ali",
+        "renter_id": "1231231233"
+    },
+    {
+        "registration_number": "CCC333",
+        "rent_date": "2024-02-24",
+        "renter_name": "ahmed",
+        "renter_id": "1234567789"
+    },
+    {
+        "registration_number": "EEE555",
+        "rent_date": "2024-02-24",
+        "renter_name": "salme",
+        "renter_id": "1231231111"
+    },
+    {
+        "registration_number": "DDD444",
+        "rent_date": "2024-02-24",
+        "renter_name": "mohammed",
+        "rental_days": 5,
+        "rental_cost": 350
+    },
+    {
+        "registration_number": "JJJ000",
+        "rent_date": "2024-02-24",
+        "renter_name": "saif",
+        "rental_days": 9,
+        "rental_cost": 675
+    },
+    {
+        "registration_number": "DDD444",
+        "rent_date": "2024-02-24",
+        "renter_name": "mohammed",
+        "rental_days": 2,
+        "rental_cost": 140
+    },
+    {
+        "registration_number": "AAA111",
+        "rent_date": "2024-02-24",
+        "renter_name": "moha",
+        "rental_days": 4,
+        "rental_cost": 800.0
+    },
+    {
+        "registration_number": "FFF666",
+        "rent_date": "2024-02-24",
+        "renter_name": "jon",
+        "rental_days": 9,
+        "rental_cost": 342
+    },
+    {
+        "registration_number": "GGG777",
+        "rent_date": "2024-02-24",
+        "renter_name": "ali",
+        "rental_days": 4,
+        "rental_cost": 340
+    },
+    {
+        "registration_number": "HHH888",
+        "rent_date": "2024-02-24",
+        "renter_name": "moha",
+        "rental_days": 9,
+        "rental_cost": 369
+    },
+    {
+        "registration_number": "QQQ232",
+        "rent_date": "2024-02-24",
+        "renter_name": "moha",
+        "rental_days": 3,
+        "rental_cost": 540.0
+    },
+    {
+        "registration_number": "GGG777",
+        "rent_date": "2024-02-24",
+        "renter_name": "moha",
+        "rental_days": 6,
+        "rental_cost": 510
+    },
+    {
+        "registration_number": "AAA111",
+        "rent_date": "2024-02-24",
+        "renter_name": "mohammed",
+        "rental_days": 6,
+        "rental_cost": 1200.0
+    },
+    {
+        "registration_number": "AAA111",
+        "rent_date": "2024-02-24",
+        "renter_name": "ali",
+        "rental_days": 6,
+        "rental_cost": 1200.0
+    },
+    {
+        "registration_number": "FFF666",
+        "rent_date": "2024-02-24",
+        "renter_name": "ABDULLAH",
+        "rental_days": 7,
+        "rental_cost": 560.0
+    }
+]

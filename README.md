@@ -1,44 +1,30 @@
-# UNIT-1_PROJECT
+<!-- Car Rental System
 
+Overview:
+The Rental Car Management System is a command-line application designed to streamline the process of managing and renting cars for both customers and employees of a car rental company. The system allows customers to browse available cars, rent vehicles, view rental history, and manage their rental information. Employees, on the other hand, can add new cars to the system, update car information, view all cars, rent cars to customers, view rental records, and perform other administrative tasks.
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+User Stories:
+As a customer, I want to be able to view available cars, rent a car for a specific duration, view my rental history, and manage my rental information.
+As an employee, I want to add new cars to the system, update car information, view all cars in the inventory, rent cars to customers, and manage rental records.
+Usage:
+The Rental Car Management System offers the following functionalities:
 
-- Must be interactive on CLI.
-- Use data structures. 
-- Use loops & conditionals.
-- Use functions that return an output . 
-- Use a Lambda function.
-- Use at least 1 Class.
-- Use some form of Error Handling .
-- Organize Your Code into modules & (or packages)
+Customer Menu:
+View Available Cars
+Rent a Car
+Return a Car
+View Rental History
+Logout
+Employee Menu:
+Add New Car
+Update Car Information
+Remove Car from System
+View All Cars
+Rent Car to User
+View Rental Records
+Logout
+To use the system:
 
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+Choose either the Customer or Employee option.
+Follow the prompts to perform actions such as viewing available cars, renting a car, returning a car, viewing rental history, adding a new car, updating car information, removing a car from the system, viewing all cars, renting a car to a user, or viewing rental records.
+Enter your choice and provide any additional information as requested by the system. -->

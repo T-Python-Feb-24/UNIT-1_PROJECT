@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "gx.r",
+        "size": "large",
+        "price_per_day": 200.0,
+        "registration_number": "AAA111",
+        "is_rented": true
+    },
+    {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "size": "Medium",
+        "price_per_day": 42,
+        "registration_number": "BBB222",
+        "is_rented": true
+    },
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Fusion",
+        "size": "Medium",
+        "price_per_day": 45,
+        "registration_number": "CCC333",
+        "is_rented": true
+    },
+    {
+        "id": 4,
+        "make": "BMW",
+        "model": "3 Series",
+        "size": "Luxury",
+        "price_per_day": 70,
+        "registration_number": "DDD444",
+        "is_rented": true
+    },
+    {
+        "id": 5,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "size": "Medium",
+        "price_per_day": 40,
+        "registration_number": "EEE555",
+        "is_rented": true
+    },
+    {
+        "id": 6,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "size": "Medium",
+        "price_per_day": 80.0,
+        "registration_number": "FFF666",
+        "is_rented": true
+    },
+    {
+        "id": 7,
+        "make": "Tesla",
+        "model": "Model 3",
+        "size": "Luxury",
+        "price_per_day": 85,
+        "registration_number": "GGG777",
+        "is_rented": false
+    },
+    {
+        "id": 8,
+        "make": "Nissan",
+        "model": "Altima",
+        "size": "Medium",
+        "price_per_day": 41,
+        "registration_number": "HHH888",
+        "is_rented": true
+    },
+    {
+        "id": 10,
+        "make": "Mercedes",
+        "model": "C-Class",
+        "size": "Luxury",
+        "price_per_day": 75,
+        "registration_number": "JJJ000",
+        "is_rented": true
+    },
+    {
+        "id": 9,
+        "make": "GMC",
+        "model": "LX",
+        "size": "LARGE",
+        "price_per_day": 180.0,
+        "registration_number": "QQQ232",
+        "is_rented": true
+    }
+]
