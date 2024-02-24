@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Four Season",
+    "city": "Riyadh",
+    "rooms": [
+      {
+        "number": 101,
+        "type": "Standard",
+        "price": 100,
+        "booked": true
+      },
+      {
+        "number": 102,
+        "type": "Deluxe",
+        "price": 150,
+        "booked": false
+      },
+      {
+        "number": 103,
+        "type": "Suite",
+        "price": 200,
+        "booked": false
+      }
+    ]
+  },
+  {
+    "name": "Helton",
+    "city": "Jeddah",
+    "rooms": [
+      {
+        "number": 201,
+        "type": "Standard",
+        "price": 100,
+        "booked": false
+      },
+      {
+        "number": 202,
+        "type": "Deluxe",
+        "price": 150,
+        "booked": false
+      },
+      {
+        "number": 203,
+        "type": "Suite",
+        "price": 200,
+        "booked": false
+      }
+    ]
+  },
+  {
+    "name": "Holiday",
+    "city": "Riyadh",
+    "rooms": [
+      {
+        "number": 301,
+        "type": "Standard",
+        "price": 100,
+        "booked": false
+      },
+      {
+        "number": 302,
+        "type": "Deluxe",
+        "price": 150,
+        "booked": false
+      },
+      {
+        "number": 303,
+        "type": "Suite",
+        "price": 200,
+        "booked": false
+      }
+    ]
+  }
+]
