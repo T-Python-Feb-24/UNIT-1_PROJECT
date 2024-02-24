@@ -1,0 +1,39 @@
+[
+    {
+        "ID": "1",
+        "Name": "Rayan",
+        "Department": "CS",
+        "Date": "2024-02-24",
+        "Tasks": [
+            {
+                "task_number": "1",
+                "description": "use the program",
+                "state": "done"
+            },
+            {
+                "task_number": "2",
+                "description": "print(\"hello world\")",
+                "state": "done"
+            },
+            {
+                "task_number": "3",
+                "description": "Training on programming in Python",
+                "state": "not ready"
+            }
+        ]
+    },
+    {
+        "ID": "2",
+        "Name": "Fahad",
+        "Department": "HR",
+        "Date": "2024-02-24",
+        "Tasks": []
+    },
+    {
+        "ID": "3",
+        "Name": "ahmed",
+        "Department": "IT",
+        "Date": "2024-02-24",
+        "Tasks": []
+    }
+]
