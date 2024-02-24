@@ -1,0 +1,56 @@
+{
+    "high_potassium": [
+        {
+            "name": "Turkey ",
+            "grams": 84,
+            "calories": 117
+        },
+        {
+            "name": "Rice",
+            "grams": 100,
+            "calories": 130
+        },
+        {
+            "name": "Butter",
+            "grams": 14,
+            "calories": 110
+        },
+        {
+            "name": "Pasta ",
+            "grams": 100,
+            "calories": 131
+        }
+    ],
+    "low_potassium": [
+        {
+            "name": "Dried fruit",
+            "grams": 100,
+            "calories": 80
+        },
+        {
+            "name": "Carrot",
+            "grams": 50,
+            "calories": 45
+        },
+        {
+            "name": "Chicken",
+            "grams": 100,
+            "calories": 165
+        },
+        {
+            "name": "Apple",
+            "grams": 50,
+            "calories": 32
+        },
+        {
+            "name": "rice",
+            "grams": 100,
+            "calories": 190
+        },
+        {
+            "name": "dried fruits",
+            "grams": 30,
+            "calories": 35
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "high_copper": [
+        {
+            "name": "Rice",
+            "grams": 100,
+            "calories": 130
+        },
+        {
+            "name": "Butter",
+            "grams": 14,
+            "calories": 80
+        },
+        {
+            "name": "Bread",
+            "grams": 40,
+            "calories": 60
+        },
+        {
+            "name": "Date",
+            "grams": 20,
+            "calories": 70
+        }
+    ],
+    "low_copper": [
+        {
+            "name": "date",
+            "grams": 40,
+            "calories": 140
+        },
+        {
+            "name": "Dark chocolate",
+            "grams": 30,
+            "calories": 270
+        },
+        {
+            "name": "Oysters",
+            "grams": 80,
+            "calories": 346
+        },
+        {
+            "name": "Whole grains ",
+            "grams": 40,
+            "calories": 70
+        }
+    ]
+}

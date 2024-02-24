@@ -1,0 +1,71 @@
+{
+    "high_zinc": [
+        {
+            "name": "Whole grains ",
+            "grams": 120,
+            "calories": 296
+        },
+        {
+            "name": "Salmon",
+            "grams": 110,
+            "calories": 220
+        },
+        {
+            "name": "Apple",
+            "grams": 50,
+            "calories": 32
+        },
+        {
+            "name": "orange",
+            "grams": 30,
+            "calories": 22
+        },
+        {
+            "name": "Litchis",
+            "grams": 50,
+            "calories": 33
+        }
+    ],
+    "low_zinc": [
+        {
+            "name": "Nuts ",
+            "grams": 10,
+            "calories": 80
+        },
+        {
+            "name": "Red meats ",
+            "grams": 100,
+            "calories": 230
+        },
+        {
+            "name": "Egg",
+            "grams": 160,
+            "calories": 235
+        },
+        {
+            "name": "Whole grains ",
+            "grams": 100,
+            "calories": 236
+        },
+        {
+            "name": "Brown Bread",
+            "grams": 40,
+            "calories": 200
+        },
+        {
+            "name": "milk",
+            "grams": "30",
+            "calories": "50"
+        },
+        {
+            "name": "shellfish",
+            "grams": 50,
+            "calories": 130
+        },
+        {
+            "name": "rice",
+            "grams": 100,
+            "calories": 120
+        }
+    ]
+}

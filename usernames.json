@@ -1,0 +1,8 @@
+{"name": "waad", "pass": "1", "admin": true}
+{"name": "ahmad", "pass": "2", "admin": false}
+{"name": "w", "pass": "1", "admin": false}
+{"name": "yasser", "pass": "3", "admin": false}
+{"name": "Amal", "pass": "1234", "admin": false}
+{"name": "khalid", "pass": 321, "admin": false}
+{"name": "waadf", "pass": 123, "admin": true}
+{"name": "amal", "pass": 1, "admin": false}

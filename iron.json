@@ -1,0 +1,56 @@
+{
+    "high_iron": [
+        {
+            "name": "tofu",
+            "grams": 100,
+            "calories": 70
+        },
+        {
+            "name": "leafy greens",
+            "grams": 100,
+            "calories": 47
+        },
+        {
+            "name": "Fruits",
+            "grams": 100,
+            "calories": 60
+        },
+        {
+            "name": "kale",
+            "grams": 100,
+            "calories": 43
+        }
+    ],
+    "low_iron": [
+        {
+            "name": "Broccoli ",
+            "grams": 90,
+            "calories": 36
+        },
+        {
+            "name": "Spinach ",
+            "grams": 100,
+            "calories": 30
+        },
+        {
+            "name": "Red meats ",
+            "grams": 100,
+            "calories": 230
+        },
+        {
+            "name": "Chicken",
+            "grams": 100,
+            "calories": 165
+        },
+        {
+            "name": "Dark chocolate",
+            "grams": 20,
+            "calories": 180
+        },
+        {
+            "name": "Beef",
+            "grams": 100,
+            "calories": 280
+        }
+    ]
+}
