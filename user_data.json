@@ -1,0 +1,76 @@
+{
+    "users": [
+        {
+            "username": "rr",
+            "password": "rr",
+            "name": "rr",
+            "age": 10,
+            "weight": 10.0,
+            "height": 10.0,
+            "gender": "g"
+        },
+        {
+            "username": "ww",
+            "password": "ww",
+            "name": "ww",
+            "age": 10,
+            "weight": 80.0,
+            "height": 170.0,
+            "gender": "men"
+        },
+        {
+            "username": "ff",
+            "password": "333",
+            "name": "ff",
+            "age": 50,
+            "weight": 70.0,
+            "height": 170.0,
+            "gender": "women"
+        },
+        {
+            "username": "user1",
+            "password": "123",
+            "name": "user1",
+            "age": 5,
+            "weight": 80.0,
+            "height": 170.0,
+            "gender": "women"
+        },
+        {
+            "username": "user2",
+            "password": "123",
+            "name": "user2",
+            "age": 10,
+            "weight": 90.0,
+            "height": 170.0,
+            "gender": "men"
+        },
+        {
+            "username": "ff2",
+            "password": "122",
+            "name": "ff2",
+            "age": 25,
+            "weight": 10.0,
+            "height": 10.0,
+            "gender": "women"
+        },
+        {
+            "username": "ee",
+            "password": "333",
+            "name": "ee",
+            "age": 23,
+            "weight": 60.0,
+            "height": 170.0,
+            "gender": "women"
+        },
+        {
+            "username": "arwa",
+            "password": "33",
+            "name": "arwa",
+            "age": 30,
+            "weight": 60.0,
+            "height": 170.0,
+            "gender": "women"
+        }
+    ]
+}

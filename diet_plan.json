@@ -1,0 +1,128 @@
+{
+    "women": {
+      "2000-2400": {
+        "Breakfast": [
+          "2 boiled eggs",
+          "1 whole wheat toast with 1 tablespoon of peanut butter",
+          "1 medium-sized banana",
+          "1 cup of low-fat milk or dairy-free alternative"
+        ],
+        "Snack1": [
+          "1 small apple",
+          "1 ounce of almonds"
+        ],
+        "Lunch": [
+          "Grilled chicken breast (4 ounces)",
+          "1 cup of cooked quinoa",
+          "1 cup of steamed vegetables (broccoli, carrots, and bell peppers)",
+          "1 tablespoon of olive oil and vinegar dressing"
+        ],
+        "Snack2": [
+          "1 small Greek yogurt (low-fat or non-fat) with 1/4 cup of mixed berries"
+        ],
+        "Dinner": [
+          "Baked salmon (4 ounces)",
+          "1 cup of roasted sweet potatoes",
+          "1 cup of steamed asparagus",
+          "Side salad with mixed greens, tomatoes, cucumbers, and balsamic vinaigrette dressing"
+        ],
+        "Snack3": [
+          "1 medium-sized orange",
+          "1 ounce of walnuts"
+        ]
+      },
+      "1800-2200": {
+        "Breakfast": [
+          "2 scrambled eggs",
+          "2 slices of whole wheat toast",
+          "1 tablespoon of almond butter",
+          "1 medium-sized apple",
+          "1 cup of low-fat milk or dairy-free alternative"
+        ],
+        "Snack1": [
+          "1 small handful of baby carrots",
+          "2 tablespoons of hummus"
+        ],
+        "Lunch": [
+          "Grilled chicken breast (4-6 ounces)",
+          "1 cup of cooked brown rice",
+          "1 cup of mixed vegetables (such as broccoli, cauliflower, and snap peas)",
+          "1 tablespoon of olive oil and lemon juice dressing"
+        ],
+        "Snack2": [
+          "1 small Greek yogurt (low-fat or non-fat) with 1/4 cup of granola"
+        ],
+        "Dinner": [
+          "Baked salmon (4-6 ounces)",
+          "1 cup of quinoa pilaf with mixed vegetables (bell peppers, onions, and zucchini)",
+          "1 cup of steamed spinach",
+          "Side salad with mixed greens, cherry tomatoes, cucumbers, and balsamic vinaigrette dressing"
+        ],
+        "Snack3": [
+          "1 medium-sized orange",
+          "1 ounce of mixed nuts (almonds, cashews, and pistachios)"
+        ]
+      },
+      "1600-2000": {
+        "Breakfast": [
+          "1 boiled egg",
+          "1 slice of whole wheat toast",
+          "1 tablespoon of almond butter",
+          "1 small apple",
+          "1 cup of low-fat yogurt or dairy-free alternative"
+        ],
+        "Snack1": [
+          "1 small handful of grapes",
+          "1 string cheese"
+        ],
+        "Lunch": [
+          "Grilled chicken breast (3-4 ounces)",
+          "1 cup of mixed greens with cherry tomatoes and cucumbers",
+          "1/2 cup of cooked quinoa",
+          "1 tablespoon of olive oil and vinegar dressing"
+        ],
+        "Snack2": [
+          "1 small carrot, sliced",
+          "2 tablespoons of hummus"
+        ],
+        "Dinner": [
+          "Baked cod fillet (3-4 ounces)"
+        ]
+      }
+    },
+    "men": {
+      "2200-3000": {
+        "Breakfast": [
+          "1 cup (250 g) fat-free cottage cheese",
+          "1 cup (80 g) strawberries",
+          "Sprinkled with cinnamon",
+          "One slice of toast with:",
+          "3 ounces (85 g) sliced turkey breast"
+        ],
+        "Snack": [
+          "1/2 cup (125 g) non-fat vanilla yogurt"
+        ],
+        "Lunch": [
+          "A great salad made with:",
+          "Leafy greens (lettuce, spinach) - in any quantity",
+          "2 cups (160 g) mixed vegetables (carrots, peppers, tomatoes)",
+          "6 ounces (170 g) grilled chicken breast",
+          "1/2 cup (150 g) cooked white beans",
+          "2 tablespoons (30 g) low-calorie salad dressing",
+          "1 tangerine"
+        ],
+        "Snack2": [
+          "1 ounce (30 g) of soy",
+          "Carrot and celery sticks"
+        ],
+        "Dinner": [
+          "8 ounces (200 grams) grilled salmon with lemon",
+          "2 cups (160 g) steamed green beans with garlic",
+          "1 cup (300 g) cookedbrown rice",
+          "Large leafy green salad - any quantity",
+          "¼ medium avocado for salad",
+          "2 tablespoons (30 g) low-calorie salad dressing"
+        ]
+      }
+    }
+  }
