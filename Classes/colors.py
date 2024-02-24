@@ -26,6 +26,9 @@ class colors:
     BREDB = '\x1b[3;31;41m\33[1m' #RED Background + BOLD
     YB = '\33[93m\33[1m'
 
+    #TEST = '\x1b[0;30;40m'
+#print(colors.TEST+" WELCOME TO World "+colors.RESET)
+
 
     def animate_text(text):
         number_of_characters=1
@@ -39,7 +42,7 @@ class colors:
             os.system('clear')
     
     def intro():
-        print(colors.RBI)
+        print(colors.BLUE)
         tprint('''HOTEL BOOKING
             PROJECT''', font="varsity")
         print(colors.RESET)

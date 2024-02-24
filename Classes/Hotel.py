@@ -10,6 +10,10 @@ class Hotels:
             print(f"The file {hotels_data} was not found.")
             self.hotels = []
     
+    # Create List cities function to retrive all cities name from hotel data
+    # def list_city():
+    #     pass
+
     def search_hotels_by_city(self, city):
         return [hotel for hotel in self.hotels if hotel["city"] == city]
 

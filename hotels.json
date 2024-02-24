@@ -13,7 +13,7 @@
         "number": 102,
         "type": "Deluxe",
         "price": 150,
-        "booked": false
+        "booked": true
       },
       {
         "number": 103,
@@ -55,7 +55,7 @@
         "number": 301,
         "type": "Standard",
         "price": 100,
-        "booked": false
+        "booked": true
       },
       {
         "number": 302,
