@@ -1,0 +1,42 @@
+[
+    {
+        "brand": "Honda",
+        "model": "Accord",
+        "year": 2019,
+        "color": "White",
+        "carOwner": "Hassan Alsalem",
+        "plateNumber": "1111 ABL"
+    },
+    {
+        "brand": "Ford",
+        "model": "Tuarus",
+        "year": 2024,
+        "color": "Gray",
+        "carOwner": "Abdullah Alyami",
+        "plateNumber": "1818 RAD"
+    },
+    {
+        "brand": "Toyota",
+        "model": "Corala",
+        "year": 2021,
+        "color": "White",
+        "carOwner": "Hussain Alsalem",
+        "plateNumber": "9924 DNX"
+    },
+    {
+        "brand": "Toyota",
+        "model": "corala",
+        "year": 2020,
+        "color": "White",
+        "carOwner": "hatem Alsalem",
+        "plateNumber": "1851 ASD"
+    },
+    {
+        "brand": "Asel oman",
+        "model": "Mixed",
+        "year": 1780,
+        "color": "Brown",
+        "carOwner": "shemlol",
+        "plateNumber": "1 A"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "brand": "Honda",
+        "model": "Accord",
+        "year": 2019,
+        "plate_number": "Hassan Alsalem",
+        "owner_name": "1111 ABL",
+        "Violation": "Speeding",
+        "cost": "150"
+    },
+    {
+        "brand": "Ford",
+        "model": "Tuarus",
+        "year": 2024,
+        "plate_number": "Abdullah Alyami",
+        "owner_name": "1818 RAD",
+        "Violation": "Illegal parking",
+        "cost": "150"
+    }
+]

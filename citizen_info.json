@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Hassan Alsalem",
+        "id": 1115556677,
+        "birthDay": "1999-03-07",
+        "placeOfBirth": "Najran"
+    },
+    {
+        "name": "Abdullah Alyami",
+        "id": 1068245328,
+        "birthDay": "1998-03-18",
+        "placeOfBirth": "Najran"
+    },
+    {
+        "name": "Hussain Alsalem",
+        "id": 1084678452,
+        "birthDay": "1997-04-04",
+        "placeOfBirth": "Najran"
+    },
+    {
+        "name": "Hatem Alsalem",
+        "id": 1102168987,
+        "birthDay": "2004-01-01",
+        "placeOfBirth": "Najran"
+    },
+    {
+        "name": "Shemlol",
+        "id": 1000000000,
+        "birthDay": "1772-02-22",
+        "placeOfBirth": "Alakhdod"
+    }
+]
