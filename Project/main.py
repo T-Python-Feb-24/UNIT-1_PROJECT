@@ -9,7 +9,7 @@ init(autoreset=True)
 
 
 def welcome():
-    print(Fore.GREEN + figlet_format("WELCOME TO KING KHALID UNIVERSITY", font="small"))
+    print(Fore.GREEN + figlet_format(" WELCOME TO KING KHALID UNIVERSITY", font="small"))
     print(Style.RESET_ALL)
     print(Fore.BLACK + "______________________________________________________________________________")
     print(Style.RESET_ALL)
@@ -87,7 +87,7 @@ def main():
                     
                     system.select_preferences(student, preferences, accepted_specialization)
                 else:
-                    print(Fore.RED + f"Sorry, {student['name']}, you are not accepted in any of your preferred majors.")
+                    print(Fore.RED + f"Sorry {student['name']}, you are not accepted in any of your preferred majors.")
                 print(Style.RESET_ALL)
                 print(Fore.CYAN + "______________________________________________________________________________" + Style.RESET_ALL)
         elif choice == '4':
