@@ -42,3 +42,5 @@
 
 
 ### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+
+The project idea is a car showroom that contains the seller and the customer. The seller can add and delete cars and take a look at the showroom inventory, while the customer can take a look at the cars and buy them.
