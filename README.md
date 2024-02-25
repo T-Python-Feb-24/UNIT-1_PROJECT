@@ -1,44 +1,16 @@
 # UNIT-1_PROJECT
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+The script implements a basic parking management system. Here's an overview of what it does:
 
-- Must be interactive on CLI.
-- Use data structures. 
-- Use loops & conditionals.
-- Use functions that return an output . 
-- Use a Lambda function.
-- Use at least 1 Class.
-- Use some form of Error Handling .
-- Organize Your Code into modules & (or packages)
+Registration of Cars: The script allows users to register cars by entering the license plate number and the start date of parking. It performs validation checks to ensure the license plate is unique and the format is correct.
 
-## Example Project :  An online Grocery Store :
+Checking Car Status: Users can check the status of a car by entering its license plate number. The script searches the list of registered cars and informs the user whether the car is parked or not.
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+Car Leaving: When a car is ready to leave the parking lot, users can initiate the departure process by entering the license plate number. The script verifies if the car is parked, prompts for the end date of parking, and calculates the duration and cost of parking based on the hourly rate. It then displays this information to the user.
 
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+Parking Lot Status: The script checks if the parking lot is full by comparing the number of parked cars to a predefined limit. If the parking lot is full, no new cars can be registered.
 
+Data Persistence: The script saves the information of parked cars to a JSON file so that it can be loaded and accessed later. This allows the parking lot's state to be preserved across different script executions.
 
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+Overall, the script provides a simple interface to manage parking operations, such as registering cars, checking their status, handling departures, and tracking parking duration and cost.
