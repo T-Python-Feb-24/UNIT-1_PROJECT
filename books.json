@@ -23,7 +23,62 @@
         "category": [
             "Computers"
         ],
-        "added_date": "20/02/2024 17:42",
+        "added_date": "25/02/2024 03:46",
         "in_stock": 3
+    },
+    {
+        "id": 2,
+        "isbn": "9781640951846",
+        "title": "Outwitting the Devil: The Secret to Freedom and Success",
+        "authors": [
+            "Napoleon Hill"
+        ],
+        "published_Date": "19/03/2020",
+        "publisher": "Sound Wisdom",
+        "pages": "288",
+        "description": "Napoleon Hill\u2019s Outwitting the Devil\nThe Secret to Freedom and Success\nSecrets from the Vault, Written in 1938, Revealed Today\nAn Official Publication of The Napoleon Hill Foundation\n \n\u201cNapoleon Hill was one of America\u2019s great, influential thinkers who conti\nnues to have an enormous impact today.\u201d \u2014Steve Forbes, editor-in-chief of\n Forbes magazine\n \nBestselling author Napoleon Hill reveals the seven principles of good tha\nt allow us to triumph over obstacles . . . and find success.\n \nUsing his legendary ability to get to the root of human potential, Napole\non Hill digs deep to reveal how fear, procrastination, anger, and jealous\ny prevent us from realizing our personal goals. This long-suppressed para\nble, once considered too controversial to publish, was written by Hill in\n 1938 following the publication of his classic bestseller, Think and Grow\n Rich. Annotated and edited for a contemporary audience by Rich Dad, Poor\n Dad and Three Feet from Gold coauthor Sharon Lechter, this book--now ava\nilable in paper--is profound, powerful, resonant, and rich with insight.\n ",
+        "webs": {
+            "Amazon_Books": "https://www.amazon.sa/s?k=isbn+9781640951846",
+            "Google_Books": "https://play.google.com/store/books/details/Napoleon_Hill_Outwitting_the_Devil?id=cM_TDwAAQBAJ"
+        },
+        "price": [
+            ""
+        ],
+        "subtitle": "",
+        "category": [
+            "Business & Economics / Motivational",
+            "Self-Help / Motivational & Inspirational",
+            "Self-Help / Personal Growth / Success"
+        ],
+        "added_date": "25/02/2024 03:46",
+        "in_stock": 3
+    },
+    {
+        "id": 3,
+        "isbn": "9781784395889",
+        "title": "Python Penetration Testing Essentials",
+        "authors": [
+            "Mohit"
+        ],
+        "published_Date": "28/01/2015",
+        "publisher": "Packt Publishing Ltd",
+        "pages": "178",
+        "description": "If you are a Python programmer or a security researcher who has basic knowledge o\nf Python programming and want to learn about penetration testing with the help of\n Python, this book is ideal for you. Even if you are new to the field of ethical \nhacking, this book can help you find the vulnerabilities in your system so that y\nou are ready to tackle any kind of attack or intrusion.",
+        "webs": {
+            "Amazon_Books": "https://www.amazon.sa/s?k=isbn+9781784395889",
+            "Google_Books": "https://play.google.com/store/books/details/Mohit_Python_Penetration_Testing_Essentials?id=bnNuBgAAQBAJ&hl=en&gl=US"
+        },
+        "price": [
+            45.99,
+            "SAR"
+        ],
+        "subtitle": "",
+        "category": [
+            "Computers / Languages / Python",
+            "Computers / Networking / General",
+            "Computers / Security / General"
+        ],
+        "added_date": "25/02/2024 03:46",
+        "in_stock": 2
     }
 ]
