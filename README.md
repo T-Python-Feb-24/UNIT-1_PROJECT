@@ -1,44 +1,24 @@
-# UNIT-1_PROJECT
+# Store Gift Cards Project
 
+## Overview:
+This project is a CLI-based system for managing gift cards in a store. It allows customers to buy gift cards with specific values, check the balance of their gift cards, view purchase history, show total points, and redeem points.
+## User Stories:
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
-
-- Must be interactive on CLI.
-- Use data structures. 
-- Use loops & conditionals.
-- Use functions that return an output . 
-- Use a Lambda function.
-- Use at least 1 Class.
-- Use some form of Error Handling .
-- Organize Your Code into modules & (or packages)
-
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+### As a customer, I should be able to do the following:
+- **Buy a gift card**: Customers can purchase a gift card with a specific value from the available options.
+- **Check the balance of my gift card**: Customers can check the remaining balance of their gift card by providing the gift card ID.
+- **Show purchase history**: Customers can view their purchase history to see the details of their previous transactions.
+- **Show total points**: Customers can see the total points they have accumulated through their purchases.
+- **Redeem points**: Customers can redeem accumulated points for benefits such as discounts or additional gift cards.
 
 
 
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
+## Usage:
 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+### Options:
+1. **Buy a Gift Card**: Select this option to purchase a gift card.
+2. **Check Gift Card Balance**: Choose this option to check the balance of your gift card.
+3. **Show Purchase History**: View your purchase history to track transactions.
+4. **Show Total Points**: See the total points earned through purchasing gift cards.
+5. **Redeem Points**: Redeem accumulated points for rewards or benefits.
+6. **Enter the ID of the gift card you want to select (or 'q' to quit)**: Use this option to interact with a specific gift card by providing its ID.
