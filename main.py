@@ -3,7 +3,6 @@ import json
 from Citizen import Citizen
 from Vehicle import Vehicle
 from Ticket import Ticket
-from colorama import Fore, Style
 from rich.console import Console
 from rich.panel import Panel
 
