@@ -1,0 +1,66 @@
+type,airport_name,region_name,city_name
+#loc +airport +type,#loc +airport +name,#adm1 +name,#loc +municipality +name
+large_airport,King Abdulaziz International Airport,Makkah Region,Jeddah
+large_airport,King Khaled International Airport,Riyadh Region,Riyadh
+large_airport,King Fahd International Airport,Eastern Province Region,Dammam
+large_airport,Prince Mohammad Bin Abdulaziz Airport,Al Madinah Region,Medina
+medium_airport,Jizan Regional Airport / King Abdullah bin Abdulaziz Airport,Jlzan Region,Jizan
+medium_airport,Tabuk Airport,Tabuk Region,Tabuk
+medium_airport,Taif Regional Airport,Makkah Region,Taif
+large_airport,King Abdulaziz Air Base,Eastern Province Region,Dhahran
+medium_airport,Abha International Airport,Asir Region,Abha
+medium_airport,Arar Domestic Airport,The Northern Border Region,Arar
+medium_airport,Gassim Airport,Al Qasim Region,Buraidah
+medium_airport,Ha'il Airport,Ha'il Region,Ha'il
+medium_airport,Al-Ahsa International Airport,Eastern Province Region,Hofuf
+medium_airport,Al Qaisumah/Hafr Al Batin Airport,Eastern Province Region,Qaisumah
+medium_airport,Turaif Domestic Airport,The Northern Border Region,Turaif
+medium_airport,Wadi Al Dawasir Domestic Airport,Riyadh Region,Wadi Al Dawasir
+medium_airport,King Saud Bin Abdulaziz (Al Baha) Airport,Al Batah Region,Al-Baha
+medium_airport,Gurayat Domestic Airport,Al Jawf Region,Gurayat
+medium_airport,Najran Domestic Airport,Najran Region,Najran
+medium_airport,Prince Abdul Mohsin bin Abdulaziz International Airport / Yanbu Airport,Al Madinah Region,Yanbu
+medium_airport,Al-Jawf Domestic Airport,Al Jawf Region,Al-Jawf
+medium_airport,Bisha Airport,Asir Region,Bisha
+medium_airport,Rafha Domestic Airport,The Northern Border Region,Rafha
+medium_airport,Sharurah Domestic Airport,Najran Region,Sharurah
+medium_airport,Al Wajh Domestic Airport,Tabuk Region,Al Wajh
+medium_airport,King Khaled Military City Airport,Eastern Province Region,King Khaled Military City
+medium_airport,Majeed Bin Abdulaziz Airport,Al Madinah Region,Al Ula
+medium_airport,King Salman Abdulaziz Airport,Riyadh Region,Dawadmi
+medium_airport,Neom Bay Airport,Tabuk Region,Sharma
+medium_airport,King Khalid Air Base,Asir Region,Khamis Mushait
+small_airport,As-Sulayyil Airport,Riyadh Region,As-Sulayyil
+small_airport,Hawtah Airport,Riyadh Region,Hawtah
+small_airport,Aramco Ras Khafji Airport,Eastern Province Region,Khafji
+small_airport,Shaibah Airport,Eastern Province Region,Shaybah
+small_airport,Pump Station 3 Airport,Eastern Province Region,Wasea
+medium_airport,Red Sea International Airport,Tabuk Region,Hanak
+medium_airport,Jubail Airport,Eastern Province Region,Jubail
+medium_airport,Ras Mishab Airport,Eastern Province Region,Al Mishab
+medium_airport,Ras Tanajib Airport,Eastern Province Region,As Saffaniyah
+medium_airport,Ras Tanura Airport,Eastern Province Region,Ras Tanura
+small_airport,Batha Airport,Eastern Province Region,Batha
+small_airport,Al Hasa Airport,Eastern Province Region,Al Hasa
+small_airport,Abu Ali Airport,Eastern Province Region,Al Jubail
+small_airport,Al Bir Highway Strip,Tabuk Region,Bi'r Ibn Hirmas
+small_airport,Abqaiq Airport,Eastern Province Region,Buqayq
+small_airport,Wadi Al Musayr Airfield,Tabuk Region,Gayal
+small_airport,Ipsa 3 Airport,Eastern Province Region,Hafar al Batin
+small_airport,Haradh Airport,Eastern Province Region,Harad
+small_airport,Hawtah Kentz Airport,Riyadh Region,Hawtah
+small_airport,Tiran Island Airfield,Tabuk Region,Jazirat Tiran
+small_airport,King Abdulaziz Naval Base,Eastern Province Region,Jubail
+small_airport,Khurais Airport,Eastern Province Region,Khurais
+small_airport,Mecca East Airport,Makkah Region,Mecca
+small_airport,Nariya Airport,Eastern Province Region,Nariya
+small_airport,Quz South Airport,Makkah Region,Quz
+small_airport,Rabigh Airport,Makkah Region,Rabigh
+small_airport,Ugtah Highway Strip,Eastern Province Region,Salwa
+small_airport,Shubaytah Airport,Eastern Province Region,Shubaytah
+small_airport,Arfa Airport,Makkah Region,Ta'if
+small_airport,Thablotin Airport,Eastern Province Region,Thabhloten
+small_airport,Udhailiyah Airport,Eastern Province Region,Udhailiyah
+small_airport,Umm Al Melh Border Guards Airport,Najran Region,Umm Al Melh
+small_airport,Umm Lajj Airport,Tabuk Region,Umm Lejj
+small_airport,Zilfi Airport,Riyadh Region,Zilfi
