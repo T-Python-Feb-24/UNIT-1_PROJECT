@@ -1,5 +1,9 @@
 import json
 
+
+'''Here is an minerals function for Add , delete ,show and search in lists food through mineral level 
+for every mineral level (zinc,iron,copper,potassium) with json file to each mineral '''
+
 done=("> Done ").center(140)
 
 #zinc add function , show , search functions 
@@ -89,14 +93,14 @@ def search_in_zinc(level ,name):
         for data in hzinc:
           if data["name"] == name:
             for i in data:
-               print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+               print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
                break
     elif level == "low":
             lzinc=zinc["low_zinc"]
             for data in lzinc:
               if data["name"] == name:
                for i in data:
-                print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+                print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
                 break
             
     else:
@@ -190,7 +194,7 @@ def search_in_iron(level ,name):
         for data in hiron:
           if data["name"] == name:
            for i in data:
-            print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+            print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
             break
         
     elif level == "low":
@@ -198,7 +202,7 @@ def search_in_iron(level ,name):
         for data in liron:
          if data["name"] == name:
           for i in data:
-            print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+            print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
             break
     
     else:
@@ -291,7 +295,7 @@ def search_in_copper(level ,name):
         for data in hcopper:
           if data["name"] == name:
             for i in data:
-             print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+             print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
              break
         
     elif level == "low":
@@ -299,7 +303,7 @@ def search_in_copper(level ,name):
             for data in lcopper:
               if data["name"] == name:
                 for i in data:
-                 print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+                 print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
                  break
             
     else:
@@ -394,7 +398,7 @@ def search_in_potassium(level ,name):
             for data in hpotassium:
                 if data["name"] == name:
                  for i in data:
-                  print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+                  print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
                   break
               
         elif level == "low":
@@ -402,7 +406,7 @@ def search_in_potassium(level ,name):
             for data in lpotassium:
               if data["name"] == name:
                 for i in data:
-                 print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(80))
+                 print(f"\nName:{data['name']}".center(90),f"Grams: {data['grams']}".center(90),f"Calories: {data['calories']}".center(90))
                  break
             
         else:

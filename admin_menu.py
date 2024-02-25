@@ -176,7 +176,7 @@ def admin_add_search_list():
            print(sz)
            level=input(lev)
            name=input(j)
-           print(search_in_zinc(level,name))
+           search_in_zinc(level,name)
            input(kk)
           case "2":
            print("\n")
@@ -185,7 +185,7 @@ def admin_add_search_list():
            print(si)
            level=input(lev)
            name=input(j)
-           print(search_in_iron(level,name))
+           search_in_iron(level,name)
            input(kk)
           case "3":
            print("\n")
@@ -194,7 +194,7 @@ def admin_add_search_list():
            print(sc)
            level=input(lev)
            name=input(j)
-           print(search_in_copper(level,name))
+           search_in_copper(level,name)
            input(kk)
           case "4":
            print("\n")
@@ -203,7 +203,7 @@ def admin_add_search_list():
            print(sp)
            level=input(lev)
            name=input(j)
-           print(search_in_potassium(level,name))
+           search_in_potassium(level,name)
            input(kk)
 
           case "5":
@@ -271,5 +271,6 @@ def admin_add_search_list():
       print(gby)
       break
      
+
 
 
