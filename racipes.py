@@ -10,7 +10,6 @@ def recipe_list(recipe):
     filtered = [r for r in recipe if average_rating(r) > 7.0]
     for r in filtered:
         title, ratings ,url= r
-        average = round(average_rating(r), 2)
         print(f"{title.center(70)}------{url.center(70)}\n\n")
         
 
