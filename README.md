@@ -21,7 +21,7 @@
 - check citizen information.
 - check vehicle information.
 - give tickets (using vehicle plate number).
-- Get recommendations for my next purchase based on my purchase history.
+
 
 
 
@@ -31,6 +31,7 @@
  - type in vehicle plate number to give a ticket.
  - type in violaten description.
  - type in violation fine amount.
+ - type in the date of the violation.
 
 
 ### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
