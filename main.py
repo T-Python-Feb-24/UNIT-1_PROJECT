@@ -3,13 +3,13 @@ from dealership import Dealership
 from user import User
 from admin import Admin
 
-def load_data(admin):
-    try:
-        with open("car_data.json", "r", encoding="utf-8") as file:
-            cars = json.load(file)
-            return cars
-    except:
-        return []
+# def load_data(admin):
+#     try:
+#         with open("car_data.json", "r", encoding="utf-8") as file:
+#             cars = json.load(file)
+#             return cars
+#     except:
+#         return []
 
 def save_data(admin, cars):
     with open("car_data.json", "w", encoding="utf-8") as file:
@@ -57,31 +57,11 @@ def display_inventory_value(dealership):
     total_value = sum(car["price"] for car in dealership.inventory)
     print(f"Total inventory value: ${total_value:.2f}")
 
-class Dealership:
-    def __init__(self, name, admin_username, admin_password):
-        self.name = name
-        self.admin = Admin(admin_username, admin_password)
-        self.inventory = load_data(self.admin)
-        self.sold_cars = load_sold_cars(self.admin)
 
-    def sell_car(self, car):
-        buyer = User(
-            first_name=input("Enter the buyer's first name: "),
-            last_name=input("Enter the buyer's last name: "),
-            email=input("Enter the buyer's email: "),
-            phone=input("Enter the buyer's phone: "),
-            id_number=input("Enter the buyer's ID number: "),
-            bank_account=input("Enter the buyer's bank account: ")
-        )
-        self.inventory.remove(car)
-        self.sold_cars.append(car)
-        save_data(self.admin, self.inventory)
-        save_sold_cars(self.admin, self.sold_cars)
-
-admin = Admin("admin", "password")
-dealership = Dealership("ABC Motors", admin.username, admin.password)
 
 if __name__ == '__main__':
+    admin = Admin("admin", "password")
+    dealership = Dealership("ABC Motors", admin.username, admin.password)
     while True:
         print("\nWelcome to the Car Dealership!")
         print("1. Add a car")
@@ -94,6 +74,8 @@ if __name__ == '__main__':
 
         try:
             choice = int(input("Enter your choice: "))
+            # Load admins from JSON file
+            Admin.load_admins_from_json("admins_data.json")
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
@@ -112,6 +94,8 @@ if __name__ == '__main__':
             }
 
             cars.append(new_car)
+            # Save admins to JSON file
+            Admin.save_admins_to_json("admins_data.json")
             save_data(cars)
 
         elif choice == 2:
@@ -146,9 +130,12 @@ if __name__ == '__main__':
             display_inventory_value(dealership)
 
         elif choice == 6:
-            sell_car(dealership)
+            dealership.sell_car(dealership)
 
         elif choice == 7:
             break
         else:
             print("Invalid option, please select a valid option.")
+
+
+

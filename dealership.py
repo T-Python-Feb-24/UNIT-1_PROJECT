@@ -1,6 +1,13 @@
 import json
-from main import load_data
 from user import User
+
+def load_data(admin):
+    try:
+        with open("car_data.json", "r", encoding="utf-8") as file:
+            cars = json.load(file)
+            return cars
+    except:
+        return []
 
 class Dealership:
     def __init__(self, name, admin_username, admin_password):
