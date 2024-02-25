@@ -6,6 +6,7 @@ from colorama import Fore
 from art import *
 class Player:
     def load_player_data(player_data):
+        '''Load all players data from json file'''
         try:
             with open("players_data.json", "r", encoding="utf-8") as file:
                 return json.load(file)
@@ -13,6 +14,7 @@ class Player:
             return []
 
     def store_player_data(player_data):
+        '''Save the new and updates on players data into json file '''
         with open("players_data.json", "w", encoding="utf-8") as file:
             json.dump(player_data, file, indent=2)
         #print("Data saved successfully.")
@@ -24,6 +26,7 @@ class Player:
         return None
 
     def display_leaderboard_pretty(player_data):
+        '''LeaderBord decoraion on table'''
         # Create a PrettyTable instance
         table = PrettyTable()
         # Add columns

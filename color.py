@@ -11,8 +11,8 @@ class Color:
     color_code_blue = '\033[44m'
     darkgrey='\033[90m'
 
-    # لازم اضفلها دوكيومنتيشن
-    def print_colored_art(text, font, color): #تاخد البرنت الي بالارت وتلونه 
+    
+    def print_colored_art(text, font, color): # Take art text and colur it
         # Generate ASCII art
         art_text = text2art(text, font=font)
         # Apply color using colorama
@@ -20,7 +20,7 @@ class Color:
         # Print the colored ASCII art
         print(colored_art)
 
-    def print_colored_space_art(text, font, color): #تاخد البرنت الي بالارت وتلونه 
+    def print_colored_space_art(text, font, color): # pint_colored_art + space for decoration only 
         # Generate ASCII art
         art_text = text2art( " " * 22 + text, font=font)
         # Apply color using colorama

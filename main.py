@@ -5,7 +5,7 @@ from player import Player
 from word_categories import WrodsCategories
 from round import Round 
 
-# Initialize Colorama
+
 init(autoreset=True)
 
 space:str = " " * 22
@@ -48,7 +48,7 @@ else:
 
 while True:
     try:
-        # Menu TO:
+        # Main menu:
         print()
         print(Fore.YELLOW + space + "↓ Welcome to the Guessing Word Game Menu ↓")
         print(space + "1. To Start the Geme 🚀")
@@ -63,7 +63,7 @@ while True:
                 print(space + Fore.YELLOW + "↓ Choose a Category ↓")
                 categories = list(WrodsCategories.word_categories.keys())
                 # 🥘💻⛑️🛫🔬 #🎨🍳📚📷🏔️ #🥗🍣🌮🍩🍔
-                for i, category in enumerate(categories, 1): # ممكن اسويه طباعة عشان الايموجي 
+                for i, category in enumerate(categories, 1): 
                     if category == "Hobbies":
                         print(space + f"{i}. {category} 🎭")
                     elif category == "Jobs":
@@ -73,11 +73,11 @@ while True:
                 print(space + f"{i + 1}. Back to main menu ◀️")
                 print()
                 category_choice:str = input(Fore.MAGENTA + space + "Please choose a category that you are excited to play → " + Style.RESET_ALL)
-                if category_choice == str(i + 1):
+                if category_choice == str(i + 1): # 4. back to main menu
                     break
                 print()
                 try:
-                    category_index = int(category_choice) - 1
+                    category_index = int(category_choice) - 1 # reset of index from 1 to 0
                     category = categories[category_index]
                     Color.print_colored_space_art(category, font=DEFAULT_FONT, color=Fore.WHITE)
                     print()
@@ -97,14 +97,14 @@ while True:
                                 print(Fore.BLUE +space + f"Round {current_round + 1} over with total score ⭐ → {final_score}")
                                 print()
                             
-                            if final_score > existing_player['score']:
+                            if final_score > existing_player['score']: # if the new score higher than the old 
                                 existing_player['score'] = final_score
                                 print()
                                 print(Fore.YELLOW + space + f"NEW HIGHER SCORE 🎉🥇 ! Your score is now ⭐ → {final_score}" + Style.RESET_ALL) 
                             else:
                                 print(space + f"Your FINAL SCORE is {final_score}. Your high score remains 🎖️  → {existing_player['score']}")
                                 
-                            Player.store_player_data(player_data)
+                            Player.store_player_data(player_data) # dumps to json filee
                             Player.display_leaderboard_pretty(player_data)
 
                             play_again = input(Fore.MAGENTA + space + "Do you want to play again 🕹️  (yes/no)? →  " + Style.RESET_ALL).lower()

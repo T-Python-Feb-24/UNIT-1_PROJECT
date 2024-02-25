@@ -4,7 +4,7 @@ from art import *
 from color import Color
 from word_categories import WrodsCategories
 
-# Initialize Colorama
+
 init(autoreset=True)
 space:str = " " * 22
 
