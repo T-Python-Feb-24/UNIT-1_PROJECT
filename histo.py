@@ -1,5 +1,5 @@
 from check import checkValidInt
-
+from termcolor import colored
 historical_places_dic:dict = {
 
         'Riyadh Region' : [
@@ -29,9 +29,9 @@ historical_places_dic:dict = {
 }
 
 
-# حطي لون جنب الهذاعند الكلمه 
+
 def regionPlaces(region:str):
-        print(f"\nHistoricl places in {region}:")
+        print(colored(f"\nHistoricl places in {region}:",'green'))
         region = historical_places_dic[region]
         for place in region :
                 print(f"- {place['name']}:\n {place['description']}")
@@ -47,10 +47,6 @@ def allPlaces():
                 print()
 
 def historicalPlaces():
-        print("*****************************************************")
-        print("      Welcome to the Enchanting World of History!      ")
-        print("*****************************************************\n")
-
         print("Explore the rich tapestry of Saudi Arabia's past as we")
         print("guide you through its mesmerizing Historical Places.\n")
         print("For Historical Places in:")
