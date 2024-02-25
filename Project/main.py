@@ -53,6 +53,7 @@ def main():
         choice = input(Fore.CYAN + "Enter your choice: " + Style.RESET_ALL)
 
         if choice == '2':
+         try:
             name = input(Fore.BLACK + "Enter student name: " + Style.RESET_ALL)
             gpa = float(input(Fore.YELLOW + "Enter high school GPA: " + Style.RESET_ALL))
             qiyas = float(input(Fore.YELLOW + "Enter Qiyas score: " + Style.RESET_ALL))
@@ -60,6 +61,9 @@ def main():
             student = system.HighSchoolStudent(name, gpa, qiyas, tahsili)
             system.register_student(student)
             print(Fore.CYAN + "______________________________________________________________________________" + Style.RESET_ALL)
+         except Exception as e:
+             print(e)
+        
         elif choice == '3':
             name = input(Fore.MAGENTA + "Enter student name to select preferences: " + Style.RESET_ALL)
             student = next((s for s in system.students_list if s['name'] == name), None)

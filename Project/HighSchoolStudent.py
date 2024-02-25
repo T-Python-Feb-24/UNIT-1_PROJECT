@@ -11,9 +11,10 @@ class UniversityAdmissionSystem:
             'preferences': []
         }
         return student
-
+    
     def register_student(self, student):
         self.students_list.append(student)
+        
         print(f"The student {student['name']} is registered successfully.")
 
     def suggest_specialization(self, student):
