@@ -15,17 +15,32 @@
         "end_date": null
     },
     {
-        "license_plate": "9898avc",
-        "start_date": "2024-02-16 00:00:00",
-        "end_date": null
-    },
-    {
         "license_plate": "98rr",
         "start_date": "2024-02-16 04:00:00",
         "end_date": null
     },
     {
-        "license_plate": "98rrr",
+        "license_plate": "98ss",
+        "start_date": "2024-02-16 04:00:00",
+        "end_date": null
+    },
+    {
+        "license_plate": "98dd",
+        "start_date": "2024-02-16 04:00:00",
+        "end_date": null
+    },
+    {
+        "license_plate": "98ff",
+        "start_date": "2024-02-16 04:00:00",
+        "end_date": null
+    },
+    {
+        "license_plate": "98gg",
+        "start_date": "2024-02-16 04:00:00",
+        "end_date": null
+    },
+    {
+        "license_plate": "9898aa",
         "start_date": "2024-02-16 04:00:00",
         "end_date": null
     }

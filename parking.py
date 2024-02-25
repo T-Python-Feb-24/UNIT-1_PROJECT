@@ -31,17 +31,7 @@ def load_parked_cars():
     
     return parked_cars
 
-'''def check_car():
-    license_plate = input("Enter the license plate of the car: ")
-    parked_cars = load_parked_cars()
-    found = False
-    for car in parked_cars:
-        if car.license_plate == license_plate:
-            found = True
-            print(f"Car with license plate {license_plate} is parked.")
-            break
-    if not found:
-        print(Fore.BLUE + f"Car with license plate {license_plate}is parked.") #f"Car with license plate {license_plate} is not parked.")'''
+
 
 def leave_parking():
     license_plate = input("Enter the license plate of the car to leave -> ")
@@ -80,18 +70,7 @@ def leave_parking():
     if not found:
         print(Fore.BLUE + f"Car with license plate {license_plate} is not parked.")
 
-def save_parked_cars(parked_cars):
-    data = []
-    for car in parked_cars:
-        car_data = {
-            'license_plate': car.license_plate,
-            'start_date': car.start_date.strftime("%Y-%m-%d %H:%M:%S"),
-            'end_date': car.end_date.strftime("%Y-%m-%d %H:%M:%S")
-        }
-        data.append(car_data)
-    
-    with open(DATA_FILE, 'w') as file:
-        json.dump(data, file)
+
 
 def is_parking_full():
     parked_cars = load_parked_cars()
@@ -129,20 +108,6 @@ def register_car():
     save_parked_cars(parked_cars)
     print(Fore.GREEN + f"Car with license plate {license_plate} registered successfully.\n")
 
-def load_parked_cars():
-    try:
-        with open("parked_cars.json", "r") as file:
-            parked_cars_data = json.load(file)
-            parked_cars = []
-            for car_data in parked_cars_data:
-                license_plate = car_data['license_plate']
-                start_date = datetime.strptime(car_data['start_date'], "%Y-%m-%d %H:%M:%S")
-                end_date = datetime.strptime(car_data['end_date'], "%Y-%m-%d %H:%M:%S") if car_data['end_date'] else None
-                car = Car(license_plate, start_date, end_date)
-                parked_cars.append(car)
-    except FileNotFoundError:
-        parked_cars = []
-    return parked_cars
 
 def save_parked_cars(parked_cars):
     parked_cars_data = []

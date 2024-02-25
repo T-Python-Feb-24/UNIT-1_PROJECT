@@ -1,13 +1,15 @@
 from parking import register_car, leave_parking, check_car
 from colorama import Fore, Back ,Style
 
+print(Fore.WHITE + Style.BRIGHT +
+"""Welcome to the Parking lot
+How can i help today\n """)
+
 def main():
+    
     while True:
         print("\n")
-        print(Fore.WHITE + Style.BRIGHT +
-"""Welcome to the Parking lot
-How can i help today\n
-              """)
+
         
         print(Fore.BLUE+"1. Register Car")
         print(Fore.YELLOW +"2. Leave Parking")
