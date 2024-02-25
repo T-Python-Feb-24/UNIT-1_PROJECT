@@ -42,7 +42,7 @@ class Stock:
                 "Enter the URL of book in https://play.google.com/store/books/:\n")
             pattern = '^https://play.google.com/store/books/details/.*?id=.*$'
             if not re.match(pattern, url):
-                print("please enter a valid URL from Google store")
+                print(Fore.RED+"Please enter a valid URL from Google play Book store")
                 continue
             break
         while True:
@@ -70,11 +70,11 @@ class Stock:
             try:
                 book_id = int(
                     input("Put the book id to remove from the store: "))
-                if book_id in range(1, len(self.__stock)+1):
-                    book_title: str = self.cart.pop(book_id-1).title
+                if book_id in range(1, len(self.__books)+1):
+                    book_title: str = self.__books.pop(book_id-1).title
                     print(
                         f'{"-"*60}\nThe book ({book_title}) removed from store successfully\n{"-"*60}')
-                    self.save_cart()
+                    self.save_books_list()
                     break
                 else:
                     print(

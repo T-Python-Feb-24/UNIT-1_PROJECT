@@ -156,6 +156,7 @@ class customer(User):
     def remove_book(self):
         self.print_list_cart()
         if self.cart == []:
+            print("Your cart is empty")
             return
         while True:
             try:
